@@ -32,6 +32,7 @@ td{
 }
 
 table.table{
+    width:1000px;
     border-collapse:separate;
     border-spacing:4px;
     text-align:center;
