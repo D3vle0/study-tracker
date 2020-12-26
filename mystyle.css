@@ -1,3 +1,10 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+    background-color: rgb(224, 224, 224);
+    font-family: "Noto Sans KR", sans-serif;
+}
+
 table{
     border:0px solid ;
     width : 40%;
@@ -15,7 +22,6 @@ td{
 }
 .head{
     text-transform: capitalize;
-    font-family:monospace,굴림;
     text-align:center;
     font-size:100px;
     color:black;
@@ -24,7 +30,6 @@ td{
 }
 .head2{
     text-transform: capitalize;
-    font-family:monospace,굴림;
     text-align:center;
     font-size:100px;
     color:black;
@@ -32,7 +37,6 @@ td{
 }
 
 table.table{
-    font-family:monospace,굴림;
     width:1000px;
     border-collapse:separate;
     border-spacing:4px;
@@ -43,7 +47,6 @@ table.table{
     
 }
 table.table th{
-    font-family:monospace,굴림;
     width:300px;
     padding:10px;
     font-weight:bold;
@@ -54,7 +57,6 @@ table.table th{
     box-shadow: 10px 10px 1px; /*그림자 적용 안됨*/
 }
 table.table td{
-    font-family:monospace,굴림;
     width:300px;
     padding:10px;
     vertical-align:top;
