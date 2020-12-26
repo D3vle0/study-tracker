@@ -37,6 +37,11 @@ app.get('/', function (req, res) {
         res.render("login");
     }
 });
+//임시
+app.get('/index', function (req, res) {
+    res.render("index");
+});
+
 app.listen(PORT, function () {
     console.log('Connected port!!!');
 });
