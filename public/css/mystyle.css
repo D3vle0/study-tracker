@@ -1,74 +1,78 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-
 body {
     background-color: rgb(224, 224, 224);
     font-family: "Noto Sans KR", sans-serif;
 }
 
-table{
-    border:0px solid ;
-    width : 40%;
-    margin:auto;
-    padding:auto;
-    text-align:center;
-    color:#eee
-
+table {
+    border: 0px solid;
+    width: 40%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    color: #eee
 }
-td{
-    border : 0px solid gray;
-    width : 100px;
+
+td {
+    border: 0px solid gray;
+    width: 100px;
     height: 100px;
-    padding : 0px;
-}
-.head{
-    text-transform: capitalize;
-    text-align:center;
-    font-size:100px;
-    color:black;
-    margin-bottom:0px;
-    margin-top:60px;
-}
-.head2{
-    text-transform: capitalize;
-    text-align:center;
-    font-size:100px;
-    color:black;
-    margin-top:10px;
+    padding: 0px;
 }
 
-table.table{
-    width:1000px;
-    border-collapse:separate;
-    border-spacing:4px;
-    text-align:center;
-    line-height:1.5;
-    margin-top:10px;
-    border-radius:10px;
-    
+.head {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 100px;
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 60px;
 }
-table.table th{
-    width:300px;
-    padding:10px;
-    font-weight:bold;
-    vertical-align:top;
-    color:#fff;
-    background:#ce4869;
-    border-radius:10px;
-    box-shadow: 10px 10px 15px black; /*그림자 적용 안됨*/
+
+.head2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 100px;
+    color: black;
+    margin-top: 10px;
 }
-table.table td{
-    width:300px;
-    padding:10px;
-    vertical-align:top;
-    border-bottom:1px solid #ccc;
-    background:#eee;
-    color:black;
-    border-radius:10px;
-    word-break:break-all;
+
+table.table {
+    width: 1000px;
+    border-collapse: separate;
+    border-spacing: 4px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+table.table th {
+    width: 300px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #ce4869;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px black;
+    /*그림자 적용 안됨*/
+}
+
+table.table td {
+    width: 300px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+    color: black;
+    border-radius: 10px;
+    word-break: break-all;
     box-shadow: 10px 10px 15px;
 }
-.study_timer{
-    position:fixed;
+
+.study_timer {
+    position: fixed;
     top: 66%;
     left: 30%;
 }

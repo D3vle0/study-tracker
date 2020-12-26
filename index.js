@@ -16,27 +16,26 @@ app.use(session({
     saveUninitialized: true
 }));
 
-// app.post('/', function (req, res) {
-//     var pwDB = "c9a4f74de4b37231fa2ba2cfb6760418551e7d382d160a71a9b540ec1c971f89";
-//     var pwd = req.body.password;
+app.post('/', function (req, res) {
+    var pwDB = "c9a4f74de4b37231fa2ba2cfb6760418551e7d382d160a71a9b540ec1c971f89";
+    var pwd = req.body.password;
 
-//     if (sha256(`${pwd}thsy$S&mw3%ANW#^N&5us`) === pwDB) {
-//         req.session.displayName = 'Ang';
-//         res.redirect('/');
-//     }
-//     else {
-//         delete req.session.displayName;
-//         res.render("pw_error");
-//     }
-// });
+    if (sha256(`${pwd}thsy$S&mw3%ANW#^N&5us`) === pwDB) {
+        req.session.displayName = 'Ang';
+        res.redirect('/');
+    }
+    else {
+        delete req.session.displayName;
+        res.render("pw_error");
+    }
+});
 
 app.get('/', function (req, res) {
-    // if (req.session.displayName) {
-    //     res.render("class");
-    // } else {
-    //     res.render("index");
-    // }
-    res.render("index");
+    if (req.session.displayName) {
+        res.render("index");
+    } else {
+        res.render("login");
+    }
 });
 app.listen(PORT, function () {
     console.log('Connected port!!!');
