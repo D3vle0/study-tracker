@@ -54,7 +54,7 @@ table.table th{
     color:#fff;
     background:#ce4869;
     border-radius:10px;
-    box-shadow: 10px 10px 1px; /*그림자 적용 안됨*/
+    box-shadow: 10px 10px 15px black; /*그림자 적용 안됨*/
 }
 table.table td{
     width:300px;
