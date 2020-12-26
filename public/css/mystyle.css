@@ -81,3 +81,27 @@ table.table td {
     border-radius:10px;
     box-shadow:10px 10px 15px #d3d3d3;
 }
+.schedule_input table{
+    margin-top:10px;
+    color:black;
+    border-spacing: 4px;
+    position:fixed;
+    right:24%;
+    width:500px;
+
+}
+.schedule_input tr{
+    color:white;
+}
+.schedule_input th{
+    font-size:20px;
+    background:#ce4869;
+    border-radius:10px;
+    box-shadow:10px 10px 15px #d3d3d3;
+}
+.schedule_input td{
+    color:black;
+    background:white;
+    border-radius:10px;
+    box-shadow:10px 10px 15px #d3d3d3;
+}
