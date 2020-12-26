@@ -34,7 +34,7 @@ input:focus {
 
 .login_button {
     margin-top: 30px;
-    width: 200px;
+    width: 150px;
     font-size: 20px;
     height: 40px;
     text-align: center;
@@ -48,4 +48,9 @@ input:focus {
 
 .login_button:active {
     box-shadow: inset -15px -15px 15px #f07a97d2, inset -15px -15px 15px #f58468d2;
+}
+
+a:link, a:visited {
+    color: #00f;
+    text-decoration: none;
 }

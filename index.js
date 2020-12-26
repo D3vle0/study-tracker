@@ -42,6 +42,10 @@ app.get('/index', function (req, res) {
     res.render("index");
 });
 
+app.get('/register', function (req, res) {
+    res.render("register");
+});
+
 app.listen(PORT, function () {
     console.log('Connected port!!!');
 });
