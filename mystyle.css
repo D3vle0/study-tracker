@@ -15,7 +15,7 @@ td{
 }
 .head{
     text-transform: capitalize;
-    font-family:monospace;
+    font-family:monospace,굴림;
     text-align:center;
     font-size:100px;
     color:black;
@@ -24,7 +24,7 @@ td{
 }
 .head2{
     text-transform: capitalize;
-    font-family:monospace;
+    font-family:monospace,굴림;
     text-align:center;
     font-size:100px;
     color:black;
@@ -32,6 +32,7 @@ td{
 }
 
 table.table{
+    font-family:monospace,굴림;
     width:1000px;
     border-collapse:separate;
     border-spacing:4px;
@@ -42,6 +43,7 @@ table.table{
     box-shadow: 30px 30px 30px;
 }
 table.table th{
+    font-family:monospace,굴림;
     width:300px;
     padding:10px;
     font-weight:bold;
@@ -51,6 +53,7 @@ table.table th{
     border-radius:10px;
 }
 table.table td{
+    font-family:monospace,굴림;
     width:300px;
     padding:10px;
     vertical-align:top;
