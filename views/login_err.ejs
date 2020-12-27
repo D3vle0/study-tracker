@@ -7,16 +7,22 @@
     <link rel="stylesheet" type="text/css" href="/css/login.css">
     <title>study-tracker</title>
 </head>
+<style>
+    .err {
+        color: red;
+    }
+</style>
 
 <body>
     <div class="container">
-        <h1>회원가입</h1>
-        <p><%=errmsg%></p>
-        <form action="/register" method="post">
+        <h1>study-tracker</h1>
+        <form action="/" method="post">
+            <p class="err">아이디 또는 비밀번호가 일치하지 않습니다.</p>
             <input type="id" name="id" placeholder="아이디" autocomplete="off"><br>
             <input type="password" name="pw" placeholder="비밀번호" autocomplete="off"><br>
-            <button class="login_button">가입</button>
+            <button class="login_button">로그인</button>
         </form>
+        <a href="/register"><p class="reg-text">회원이 아니신가요?</p></a>
     </div>
 </body>
 
