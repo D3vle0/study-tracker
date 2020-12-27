@@ -86,7 +86,7 @@ table.table td {
     color:black;
     border-spacing: 4px;
     position:fixed;
-    right:24%;
+    left:50%;
     width:500px;
 
 }
