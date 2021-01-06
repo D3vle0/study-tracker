@@ -34,12 +34,13 @@ input:focus {
 
 .login_button {
     margin-top: 30px;
-    width: 150px;
+    width: 223px;
     font-size: 20px;
     height: 40px;
     text-align: center;
     display: inline-block;
     background: #ce4869;
+    color:#fff;
     box-shadow: 20px 20px 15px #d3d3d3;
     border-radius: 10px;
     border: none;
