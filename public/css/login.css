@@ -39,7 +39,7 @@ input:focus {
     height: 40px;
     text-align: center;
     display: inline-block;
-    background: linear-gradient(145deg, #f07a97, #f58468);
+    background: #ce4869;
     box-shadow: 20px 20px 15px #d3d3d3;
     border-radius: 10px;
     border: none;
