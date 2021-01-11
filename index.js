@@ -5,7 +5,7 @@ const sha256 = require('sha256');
 const fs = require('fs');
 const app = express();
 
-var PORT = process.env.PORT || 5000;
+var PORT = 4001;
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
